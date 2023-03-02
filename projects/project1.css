@@ -1,0 +1,73 @@
+/*main-color(#6399af,#00c8ba)*/
+/*color control*/
+:root{
+    --maincolor1:#6399af;
+    --maincolor2:#00c8ba;
+    --maincolor3:#214f92;
+}
+body{
+
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/*start header*/
+.header{
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+}
+.img{
+    width: 60px;
+}
+.links ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.links ul li a{
+    text-decoration: none;
+    background-color: var(--maincolor2);
+    padding: 5px;
+    border-radius: 15%;
+    color: white;
+}
+.links ul li a:hover{
+    color: var(--maincolor3);
+    padding: 8px;
+    transition-duration: 0.3s;
+}
+/*finish header*/
+
+/*start landing*/
+.landing{
+    background-image: url(index.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+    margin: 0 -20px 0 -20px;
+}
+.introtext{
+    position: relative;
+    top: 40%;
+    left: 32%;
+}
+.introtext h1{
+    color: var(--maincolor2);
+    font-size: 50px;
+}
+/*finish landing*/
+
+/*start features*/
+.features{
+
+}
+.features .container{
+background-color: #f6f6f6;
+}
+.features .container .fast{
+
+}
