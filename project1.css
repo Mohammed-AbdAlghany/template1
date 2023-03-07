@@ -5,6 +5,8 @@
     --maincolor2:#00c8ba;
     --maincolor3:#214f92;
 }
+html{
+    scroll-beahavior:smooth;
 body{
 
     font-family: 'Cairo', sans-serif;
