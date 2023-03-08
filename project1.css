@@ -49,10 +49,8 @@ body{
 /*start landing*/
 .landing{
     background-image: url(index.jpeg);
-    background-repeat: no-repeat;
     background-size: cover;
     height: 560px;
-    margin: 0 -20px 0 -20px;
 }
 .introtext{
     position: relative;
